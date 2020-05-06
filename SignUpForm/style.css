@@ -1,0 +1,62 @@
+body{
+    background-image: url('1.jpg');
+    no repeat center center fixed;
+    background-size: cover;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+            width: 40%;
+            text-align: center;
+            overflow: hidden;
+            margin:auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            
+            margin-top: 7%;
+            
+
+}
+
+hr{
+    width:80%;
+}
+
+
+.container button{
+    padding:10px;
+  margin:auto;
+  border: none;
+  color:white;
+  background-color:#426782;
+  border-radius:8px;
+}
+
+
+.container input{
+    width:70%;
+    padding:0.5rem;
+    
+}
+
+.container input:hover{
+  background-color:#426782;
+}
+.container input:focus{
+    background-color:grey;
+}
+   
+.container input[type="checkbox"]{
+    width:auto;
+}
+
+.container input[type="checkbox"]:focus{
+    border-color:#fffccc;
+}
+button:hover{
+    color:yellow
+}
+a{
+    text-decoration: none;
+}
